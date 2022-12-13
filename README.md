@@ -14,4 +14,4 @@
 #### 2022-12-13更新
 - 已经完成PointNet相关代码修改，待模型训练
 - 训练过程如下：
-  - pyfile: data_predeal，修改
+  - pyfile: data_predeal，修改main函数中的
