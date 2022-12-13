@@ -15,7 +15,7 @@
 - 已经完成PointNet相关代码修改，待模型训练
 - 训练过程如下：
   - pyfile: data_predeal.py
-    - 修改main函数中的dataPath，文件路径具体到shapenetcore_partanno_segmentation_benchmark_v0_normal下的一个类，例如shapenetcore_partanno_segmentation_benchmark_v0_normal\\\02691156\\\，记得路径末尾加"\\\"
+    - 修改main函数中的dataPath，文件路径具体到shapenetcore_partanno_segmentation_benchmark_v0_normal下的一个类，例如shapenetcore_partanno_segmentation_benchmark_v0_normal\\\02691156\\\，记得路径末尾加"\\\\"
     - 修改main函数中的savetrainPath和savevalPath，将训练集数据和测试数据分别存储到两个文件路径下（数据分类）
     - 运行即可得到分类后的数据
   - pyfile: train.py
